@@ -1,10 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-
+import ceshi from '../views/ceshi.vue'
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/ceshi',
+    name: 'ceshi',
+    component: ceshi
+  },
   {
     path: '/',
     name: 'Home',
